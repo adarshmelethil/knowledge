@@ -19,7 +19,6 @@ https://blog.ghaiklor.com/2017/10/21/how-to-implement-your-own-hello-world-boot-
 
 #+NAME: Compile Assembly
 #+begin_src shell
-
 #+end_src
 
 ** i386

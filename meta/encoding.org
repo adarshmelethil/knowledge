@@ -1,0 +1,36 @@
+#+TITLE: Encoding
+
+* Description logics
+logic or langauge to descripbe collections and relations betweeen collections
+similar to first order logic
+
+* Attempto Controlled English
+English without padding
+Only statements
+senetences built from coordination
+- something is something
+- something does something
+
+** Composite sentences
+recursively built from simpler sentences
+*** coordination
+*** subordination
+*** quantification
+*** negation
+Note that ACE composite sentences overlap with what linguists call compound sentences and complex sentences.
+* Links
+https://en.wikipedia.org/wiki/Cyc
+https://en.wikipedia.org/wiki/General_formal_ontology
+https://en.wikipedia.org/wiki/Description_logic
+https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)#Frame_language
+https://en.wikipedia.org/wiki/Neats_and_scruffies
+https://en.wikipedia.org/wiki/General_formal_ontology
+https://en.wikipedia.org/wiki/Discourse_representation_theory
+https://en.wikipedia.org/wiki/Attempto_Controlled_English
+https://en.m.wikipedia.org/wiki/Knowledge_representation_and_reasoning
+
+https://www.youtube.com/watch?v=ez773teNFYA&t=8311s
+* Formal Scheme
+https://lamport.azurewebsites.net/tla/tutorial/intro.html
+* NOTES
+Encode Natural Language to Lisp
