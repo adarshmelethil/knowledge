@@ -1,0 +1,26 @@
+#+TITLE: Main
+
+
+* Bootloader
+setups up the hardware before jumping to main code.
+
+https://www.win.tue.nl/~aeb/partitions/partition_types-2.html
+
+** magic numbers
+*** boot signature
+0x55 (85) at 0x01FE (510)
+0xAA (170) at 0x01FF (511)
+
+** nasm
+https://nasm.us/doc/nasmdoc3.html
+
+https://blog.ghaiklor.com/2017/10/21/how-to-implement-your-own-hello-world-boot-loader/
+"When the BIOS finds such a boot sector, it loads it into memory at a specific address — 0x0000:0x7C00."
+
+#+NAME: Compile Assembly
+#+begin_src shell
+
+#+end_src
+
+** i386
+https://en.wikipedia.org/wiki/X86_instruction_listings
