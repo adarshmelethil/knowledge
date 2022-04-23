@@ -1,6 +1,28 @@
 #+TITLE: Main
 
 
+* How deoes a computer work? (Software wise)
+** When you power up your computer what is the first program?
+*** Bisic In Out System (BIOS)
+**** Is a: Firmware code
+**** Kept on: Non-Volatile memory devices
+
+* Microcontroller
+
+* Non-Volatile
+* Firmware code
+
+* Main
+#+NAME: compile-bootloader
+#+begin_src shell
+nasm boot.asm -f bin -o boot.bin
+#+end_src
+
+#+NAME: run-bootloader
+#+begin_src shell
+qemu-system-i386 -fda boot.bin
+#+end_src
+
 * Bootloader
 setups up the hardware before jumping to main code.
 
